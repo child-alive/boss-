@@ -1,0 +1,797 @@
+.up {
+    display: inline-block;
+    width: 100%;
+    height: 49px;
+    background-color: #202329;
+}
+
+.zhuzhanchang {
+    width: 1184px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.wangzhan {
+    display: inline-block;
+    width: 104px;
+    height: 49px;
+    background: url(../images/导航栏boss直聘.png) 0 0 no-repeat;
+    /* position: absolute; */
+    top: 10px;
+    background-size: 104px 19px;
+    vertical-align: baseline;
+    vertical-align: middle;
+    /* 这玩意儿？？？不加她 是不是就是塌陷？？？ */
+}
+
+.logo {
+    display: inline-block;
+    width: 104px;
+    height: 49px;
+}
+
+.logo a {
+    display: block;
+    width: 104px;
+    height: 49px;
+}
+
+/* 开始后面的了 */
+
+.ijingling {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: url(../favicon图标/坐标.png) 0 -18px/18px auto no-repeat;
+    margin: 16px 3px 0 24px;
+}
+
+.dizhi {
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #00bebd;
+    vertical-align: middle;
+}
+
+.city {
+
+    display: inline-block;
+    color: white;
+    margin-bottom: 12px;
+    vertical-align: middle;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.shouye {
+    display: inline-block;
+    color: #00bebd;
+    font-size: 15px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.teshu {
+    color: #00bebd;
+}
+
+.else {
+    display: inline-block;
+    color: white;
+    margin: 4px 5px 14px 5px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.daidian {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    margin: 4px 0px 14px 10px;
+    vertical-align: middle;
+}
+
+.dian {
+    display: inline-block;
+    color: white;
+    margin: 4px 10px 14px 0px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.you {
+    width: 280px;
+    height: 49px;
+    float: right;
+}
+
+.zuihou {
+    /* position: absolute; */
+    display: inline-block;
+    color: white;
+    margin: 13px 14px 14px 5px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.new {
+    position: relative;
+    right: 0px;
+    display: inline-block;
+    height: 29px;
+    vertical-align: middle;
+    width: 89px;
+    height: 28px;
+    border: 2px solid #00bebd;
+    border-radius: 10px;
+    /* 添加一个过渡 */
+    transition: background 0.3s;
+}
+
+.zuihou1 {
+    position: absolute;
+    display: inline-block;
+    color: white;
+    /* margin: 13px 14px 14px 5px; */
+    margin: 1px 0px 0px 8px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+/* 上面两个误打误撞被我搞好了哇哈哈哈哈哈哈哈哈哈哈哈哈哈哈 */
+/* 下面是鼠标放上去的样式 */
+.new:hover {
+    background: rgb(0, 190, 189, 0.5);
+}
+
+
+/* 该沈腾了 */
+.shenteng {
+
+    width: 100%;
+    height: 120px;
+    background-color: #00b4b3;
+}
+
+.war {
+    position: relative;
+    width: 1084px;
+    height: 120px;
+    margin: auto;
+    /* background-color: pink; */
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    width: 416px;
+    height: 120px;
+}
+
+/* 搜索模块 */
+.laoda {
+    position: relative;
+    width: 900px;
+    height: 54px;
+    background-color: #00bebd;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.laoer {
+    position: absolute;
+    width: 780px;
+    height: 50px;
+    background-color: white;
+    margin: 2px 0px 2px 2px;
+    border-radius: 10px;
+}
+
+.tishi {
+    display: inline-block;
+    font-size: 20px;
+    margin: 11px 20px;
+}
+
+.sousuo {
+    position: relative;
+    bottom: 3px;
+    width: 600px;
+    height: 50px;
+    /* margin-bottom: 0px; */
+    /* background-color: pink; */
+}
+
+.ditu {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.ditu::before {
+    position: absolute;
+    right: 60px;
+    top: 13px;
+    content: ' ';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+    background: url(https://img.bosszhipin.com/static/file/2023/rnb8fa70bs1675773960493.png) 0px 0px/24px no-repeat;
+
+}
+
+.ditu::before:hover {
+    background: url(https://img.bosszhipin.com/static/file/2023/rnb8fa70bs1675773960493.png) 0px -23px/24px no-repeat;
+}
+
+button {
+    width: 80px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: #00bebd;
+}
+
+.anniu {
+    position: absolute;
+    right: -100px;
+    display: inline-block;
+}
+
+/* 热门职位 */
+.remenzhiwei {
+    position: relative;
+    top: 20px;
+    width: 900px;
+    height: 48px;
+    margin: auto;
+}
+
+b {
+    font-weight: 400;
+    font-size: 18px;
+    color: #222;
+}
+
+.hot {
+    /* position: absolute; */
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    color: #12a5a7;
+    background-color: #f8fcfc;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 0px solid;
+    margin: 0px 23px 0px 5px;
+    padding: 4px 5px;
+}
+
+.hot:hover {
+    color: white;
+    background-color: #12a5a7;
+    transition: all 0.5s;
+}
+
+/* 该下面的不会做的那个了 */
+.home {
+    /* position: relative;不对 */
+    width: 390px;
+    height: 340px;
+    position: absolute;
+    left: 100px;
+    background-color: #ffffff;
+    margin: 20px 0 0 0;
+    /* 圆角 */
+    border-radius: 10px;
+}
+
+/* 内容 */
+.juti {
+    display: inline-block;
+    width: 390px;
+    height: 40px;
+    /* background-color: pink; */
+    margin-bottom: 3px;
+    padding-left: 14px;
+    padding-top: 10px;
+    border-radius: 10px;
+    transition: box-shadow 0.8s;
+}
+
+.juti:hover {
+    transform: translateZ(100px);
+    box-shadow: 5px 5px 10px pink;
+    /* ahahhahahhahahhaahahhaahahahaahhahhaha好厉害 */
+    /* 注意这里要加入过渡效果，并且最重要的是要记住谁要过渡，所以秉承谁过渡给谁加，过渡效果加在div上 */
+}
+
+.zhiwei {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-left: 32px;
+}
+
+.juti8 {
+    border-top: 1px dashed #e6e6e6;
+}
+
+.yema {
+    color: #00b4b3;
+}
+
+.fanye {
+    position: absolute;
+    width: 21px;
+    height: 15px;
+    right: 20px;
+    background: url(https://img.bosszhipin.com/static/file/2022/01vcskhm8y1652252017628.png) no-repeat;
+}
+
+.juti9 {
+    display: inline-block;
+    width: 390px;
+    height: 40px;
+    /* background-color: pink; */
+    margin-bottom: 3px;
+    padding-left: 14px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+/* 该图片了 */
+
+.tupian {
+    position: relative;
+    float: right;
+    width: 680px;
+    height: 340px;
+    margin-top: 20px;
+    margin-right: 80px;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+.jianli {
+    width: 510px;
+    height: 220px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+.chuangzao {
+    width: 250px;
+    height: 110px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+.dizao {
+    width: 250px;
+    height: 110px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+
+
+
+
+/* 先不想 继续写 */
+h1 {
+    clear: both;
+    /* 这个好用！！！ */
+    display: block;
+    /* margin: auto; */
+    /* 这个元素用不了？？ */
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    padding: 50px 10px 10px 10px;
+}
+
+/* 小标题了 */
+
+.neirong {
+    width: 1180px;
+    height: 50px;
+    margin: auto;
+}
+
+.h3 {
+    font-size: 20px;
+    color: black;
+    margin: 0 50px 0 0;
+    transition: all .4s;
+}
+
+.h3:hover {
+    color: #00b4b3;
+}
+
+
+
+/* 真正的man */
+.job {
+    width: 1300px;
+    height: 456px;
+    margin: auto;
+    /* background-color: pink; */
+}
+
+.job-1 {
+    display: inline-block;
+    width: 380px;
+    height: 130px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    background-color: #f9fbfa;
+    transition: box-shadow 0.8s;
+}
+
+.yingpin {
+    display: block;
+    width: 380px;
+    height: 90px;
+    padding: 18px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #fefefe;
+}
+
+.yingpin:hover {
+    color: #00b4b3;
+}
+
+.name {
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+}
+
+.gangwei {
+    position: relative;
+}
+
+.talk {
+    position: absolute;
+    right: 140px;
+    bottom: 2px;
+    /* float: left; */
+    background: url(../小精灵/私聊.png) 2px 7px/20px no-repeat;
+    width: 35px;
+    height: 27px;
+}
+
+.lianxi {
+    position: absolute;
+    right: 100px;
+    bottom: 2px;
+    font-size: 15px;
+    padding: 0 5px 0 15px;
+    color: #44d283;
+    /* 写颜色填充 */
+    background-color: #d8f9e5;
+    /* 圆角 */
+    border-radius: 2px;
+}
+
+.lianxi::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    bottom: 9px;
+    right: 35px;
+    border-radius: 100%;
+    background-color: #44d283;
+}
+
+.pay {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+    color: #ec5044;
+}
+
+.yaoqiu1 {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 10px 20px 15px 0px;
+    padding: 0 5px;
+    background-color: #f8f8f8;
+    color: #4d4d4d;
+    border-radius: 2px;
+}
+
+.gongsi {
+    position: relative;
+    width: 380px;
+    height: 40px;
+    border-radius: 2px;
+    padding: 6px;
+}
+
+.biao {
+    position: relative;
+    left: 12px;
+    width: 25px;
+    /* height: 10px; */
+    background-color: pink;
+}
+
+.shangbiao {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.ruanjian {
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 3px;
+}
+
+.zhuangtai2 {
+    color: #666666;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.vline {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    vertical-align: middle;
+    background: #e0e0e0;
+    margin: 0 10px;
+    position: absolute;
+    right: 40px;
+    top: 15px;
+}
+
+.zhuangtai1 {
+    color: #666666;
+    position: absolute;
+    right: 55px;
+    top: 10px;
+}
+
+.job-1:hover {
+    transform: translateZ(100px);
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* 查看更多 */
+.more1 {
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: -40px;
+    right: 24px;
+    /* 颜色 */
+    color: #00b4b3;
+
+}
+
+/* 插一句 我应该直接div的呀 */
+.more {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #dfeef2;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.more:hover {
+    /* color: white; */
+    /* 这里是提示看一下选择器的用法！！！一定要去回顾 */
+    background-color: #00bebd;
+}
+
+.more1:hover {
+    color: white;
+}
+
+/* 这里开始复制粘贴了 */
+.yingpin1 {
+    display: block;
+    width: 380px;
+    height: 90px;
+    padding: 18px;
+    border-radius: 0px 0px 0px 0px;
+    background-color: #fefefe;
+}
+
+.yingpin2 {
+    display: block;
+    width: 380px;
+    height: 90px;
+    padding: 18px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #fefefe;
+}
+
+.gongsi10 {
+    position: relative;
+    width: 380px;
+    height: 80px;
+    border-radius: 2px;
+    padding: 6px;
+}
+
+.biao10 {
+    position: relative;
+    top: 11px;
+    left: 12px;
+    width: 50px;
+    /* height: 10px; */
+    background-color: pink;
+}
+
+.ruanjian10 {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+.zhuangtai20 {
+    /* display: inline-block;
+    vertical-align: bottom; */
+    color: #666666;
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+}
+
+.zhuangtai30 {
+    /* display: inline-block;
+    vertical-align: bottom; */
+    color: #666666;
+    position: absolute;
+    left: 140px;
+    bottom: 10px;
+}
+
+.zhuangtai40 {
+    /* display: inline-block;
+    vertical-align: bottom; */
+    color: #666666;
+    position: absolute;
+    left: 230px;
+    bottom: 10px;
+}
+
+.vline10 {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    vertical-align: middle;
+    background: #e0e0e0;
+    margin: 4px 10px;
+    position: absolute;
+    right: 240px;
+    bottom: 10px;
+}
+
+.vline20 {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    vertical-align: middle;
+    background: #e0e0e0;
+    margin: 4px 10px;
+    position: absolute;
+    right: 150px;
+    bottom: 10px;
+}
+
+/* 查看更多职位 */
+
+
+
+.gangwei1 {
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    color: #12a5a7;
+    background-color: #f8fcfc;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 2px solid;
+    margin: 10px 124px;
+    padding: 4px 5px;
+}
+
+.gangwei1:hover {
+    color: white;
+    background-color: #12a5a7;
+    transition: all 0.5s;
+}
+
+
+
+/* 最后了 */
+.fi {
+    width: 100%;
+    height: 232px;
+    background-color: #323438;
+    margin: auto;
+}
+
+.zhuti {
+    margin: auto;
+    width: 1184px;
+    height: 232px;
+}
+
+.shang {
+    position: relative;
+    width: 1184px;
+    height: 160px;
+}
+
+dl {
+    position: absolute;
+    display: block;
+    width: 192px;
+}
+
+.dl1 {
+    margin-left: 200px;
+}
+
+.dl2 {
+    margin-left: 400px;
+}
+
+.right {
+    /* position: absolute; */
+    float: right;
+    right: 10px;
+    width: 300px;
+    height: 160px;
+    /* background-color: pink; */
+}
+
+.dl3 {
+    width: 320px;
+    right: 0px;
+    text-align: right;
+}
+
+dt {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #cfcfd0;
+    margin-bottom: 10px;
+}
+
+.xiaod {
+    display: block;
+    width: 100%;
+    height: 24px;
+    font-size: 12px;
+    color: #7b7c7d;
+    /* 不自动换行 */
+    white-space: nowrap;
+}
